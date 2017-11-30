@@ -1,11 +1,12 @@
 ;(function($) {
-    $.fn.scrollnav = function(settings) {
+    $.fn.positionNav = function(settings) {
+
         var opts = $.extend({
             style:"active",
-            attr:"snav",
+            attr:"pnav",
             speed:300
         }, settings);
-        var selector = $(this).selector;
+
         return this.each(function() {
             var $this = $(this);
 
