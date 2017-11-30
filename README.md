@@ -1,5 +1,5 @@
 # 定位导航 jquery.position-nav.js
----
+[示例看这里](http://qianlixy.github.io/blog/position-nav.html)
 
 ## 用法
 ```html
